@@ -98,12 +98,50 @@ img {
 	margin-right: auto;
 }
 
+h1, h2, p {
+	font-family: 'Love Ya Like A Sister', cursive;
+
+}
+
 .perse img, .turquie img, .egypte img, .amerindiens img, .inca img {
 	margin-top: 120px;
 	display: inline-block;
+}
+
+.perse h1 h2 p {
 
 }
 
 .perse {
-	background-image: url("./1IRAN/fond.png");
+	height: 720px;
+	background-image: url("./1IRAN/fond2.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+.turquie {
+	height: 720px;
+	background-image: url("./2TURQUIE/fond.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+.egypte {
+	height: 720px;
+	background-image: url("./3EGYPTE/fond.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+
+}.amerindiens {
+	height: 720px;
+	background-image: url("./4AMERIQUE/fond.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+
+
+}.inca {
+	height: 720px;
+	background-image: url("./5AMERIQUE S/fond.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
