@@ -1,28 +1,20 @@
 body {
-	background-color: #40E0D0;
-}
-
-body {
-    background-color: #40E0D0;
+	background-image: url("cadre.png");
+	background-position: center;
+	background-attachment: fixed;
     animation-name: colorfade;
     animation-duration: 30s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: ;
 }
 
 @keyframes colorfade {
     0%   {background-color:#40E0D0;}
-    25%  {background-color:#44d8d9 ;}
+    25%  {background-color:#40b5e0;}
     50%  {background-color:#40E0D0;}
-    75%  {background-color:#50d1be;}
+    75%  {background-color:#26f5b5;}
     100% {background-color:#40E0D0;}
-}
-
-.cadre {
-	margin: 80px;
-	background-color: #40E0D0;
-	border-radius: 30px;
 }
 
 img {
@@ -30,7 +22,6 @@ img {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 h1 {
