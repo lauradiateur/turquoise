@@ -2,6 +2,29 @@ body {
 	background-color: #40E0D0;
 }
 
+body {
+    background-color: #40E0D0;
+    animation-name: colorfade;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes colorfade {
+    0%   {background-color:#40E0D0;}
+    25%  {background-color:#44d8d9 ;}
+    50%  {background-color:#40E0D0;}
+    75%  {background-color:#50d1be;}
+    100% {background-color:#40E0D0;}
+}
+
+.cadre {
+	margin: 80px;
+	background-color: #40E0D0;
+	border-radius: 30px;
+}
+
 img {
 	display: block;
 	position: relative;
