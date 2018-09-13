@@ -6,7 +6,6 @@ body {
     animation-duration: 30s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-direction: ;
 }
 
 @keyframes colorfade {
@@ -17,6 +16,81 @@ body {
     100% {background-color:#40E0D0;}
 }
 
+#page1 {
+	animation-name: float1;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#page2 {
+	animation-name: float2;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#page3 {
+	animation-name: float3;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#page4 {
+	animation-name: float4;
+    animation-duration: 13s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#page5 {
+	animation-name: float5;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes float1 {
+	0% {left:400px; right: 0px;}
+	50% {left:50px; right: 0px;}
+	100% {left: 200px; right:0px;}
+}
+
+@keyframes float2 {
+	0% {left:0px; right: 200px;}
+	50% {left:50px; right: 0px;}
+	100% {left: 0px; right:50px;}
+}
+
+@keyframes float3 {
+	0% {left:0px; right: 350px;}
+	50% {left: 60px; right: 0px;}
+	100% {left: 0px; right:180px;}
+}
+
+@keyframes float4 {
+	0% {left:100px; right: 0px;}
+	50% {left:0px; right: 100px;}
+	100% {left: 30px; right:0px;}
+}
+
+@keyframes float5 {
+	0% {left:30px; right: 0px;}
+	50% {left:0px; right: 50px;}
+	100% {left: 80px; right:0px;}
+}
+
 img {
 	display: block;
 	position: relative;
@@ -24,21 +98,12 @@ img {
 	margin-right: auto;
 }
 
-h1 {
-color: #daf7a6;
-font-family: 'Arial';
-margin: 50px;	
+.perse img, .turquie img, .egypte img, .amerindiens img, .inca img {
+	margin-top: 120px;
+	display: inline-block;
+
 }
 
-h2 {
-color: #7fffd4;
-font-family: 'Arial';
-margin: 50px;	
-}
-
-p {
-color: white;
-font-family: 'Arial';
-text-align: justify;
-margin: 50px;
+.perse {
+	background-image: url("./1IRAN/fond.png");
 }
