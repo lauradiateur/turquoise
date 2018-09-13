@@ -2,6 +2,29 @@ body {
 	background-color: #40E0D0;
 }
 
+body {
+    background-color: #40E0D0;
+    animation-name: colorfade;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes colorfade {
+    0%   {background-color:#40E0D0;}
+    25%  {background-color:#44d8d9 ;}
+    50%  {background-color:#40E0D0;}
+    75%  {background-color:#50d1be;}
+    100% {background-color:#40E0D0;}
+}
+
+.cadre {
+	margin: 80px;
+	background-color: #40E0D0;
+	border-radius: 30px;
+}
+
 img {
 	display: block;
 	position: relative;
@@ -27,119 +50,4 @@ color: white;
 font-family: 'Arial';
 text-align: justify;
 margin: 50px;
-}
-
-
-.carre1{
-	width:100px;
-	height:100px;
-	background: #48D1CC;
-	display: inline-block;
-	margin: 50px;
-}
-
-.carre2{
-	width:100px;
-	height:100px;
-	background:#00CED1;
-	display: inline-block;
-	margin: 50px;
-}
-
-.carre3{
-	width:100px;
-	height: 100px;
-	background: #AFEEEE;
-	display: inline-block;
-	margin: 50px;
-}
-
-.carre4{
-	width:100px;
-	height:100px;
-	background: #87CEFA;
-	display: inline-block;
-	margin: 50px;
-}
-
-.carre5{
-	width:100px;
-	height:100px;
-	background:#daf7a6;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre6{
-	width:100px;
-	height:100px;
-	background: #7fffd4;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre7{
-	width:100px;
-	height:100px;
-	background:#48d1cc;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-
-.carre8{
-	width:100px;
-	height:100px;
-	background:  #FFE4B5 ;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre9{
-	width:100px;
-	height:100px;
-	background:  #F0E68C ;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre10{
-	width:100px;
-	height:100px;
-	background:  #FFDAB9 ;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre11{
-	width:100px;
-	height:100px;
-	background: white;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-
-.carre12{
-	width:100px;
-	height:100px;
-	background:  #FFA07A ;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre13{
-	width:100px;
-	height:100px;
-	background: #ADFF2F;
-	display: inline-block;	
-	margin: 50px;	
-}
-
-.carre14{
-	width:100px;
-	height:100px;
-	background: #20B2AA;
-	display: inline-block;	
-	margin: 50px;	
 }
