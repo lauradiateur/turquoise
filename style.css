@@ -131,6 +131,7 @@ img {
 }
 
 .cadre {
+	width: 100%;
 	display: inline-block;
 }
 
@@ -193,7 +194,6 @@ img {
 }
 
 .perse {
-	width: auto;
 	margin-top: 160px;
 	height: 720px;
 	background-image: url("./1IRAN/fond.png");
@@ -202,7 +202,6 @@ img {
 }
 
 .turquie {
-	width: 1920px;
 	margin-top: 160px;
 	height: 720px;
 	background-image: url("./2TURQUIE/fond.png");
@@ -211,7 +210,6 @@ img {
 }
 
 .egypte {
-	width: 1920px;
 	margin-top: 160px;
 	height: 720px;
 	background-image: url("./3EGYPTE/fond.png");
@@ -221,7 +219,6 @@ img {
 }
 
 .amerindiens {
-	width: 1920px;
 	margin-top: 160px;
 	height: 720px;
 	background-image: url("./4AMERIQUE/fond.png");
@@ -232,7 +229,6 @@ img {
 }
 
 .inca {
-	width: 1920px;
 	margin-top: 160px;
 	height: 720px;
 	background-image: url("./5AMERIQUE S/fond.png");
