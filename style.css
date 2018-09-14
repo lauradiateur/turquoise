@@ -77,21 +77,21 @@ body {
 }
 
 @keyframes float3 {
-	0% {left:0px; right: 350px;}
-	50% {left: 60px; right: 0px;}
-	100% {left: 0px; right:180px;}
+	0% {left:0px; right: 350px; top: 50px;}
+	50% {left: 60px; right: 0px; top: 50px;}
+	100% {left: 0px; right:180px; top: 50px;}
 }
 
 @keyframes float4 {
-	0% {left:100px; right: 0px;}
-	50% {left:0px; right: 100px;}
-	100% {left: 30px; right:0px;}
+	0% {left:100px; right: 0px; bottom: 100px;}
+	50% {left:0px; right: 100px; bottom: 100px;}
+	100% {left: 30px; right:0px; bottom: 100px;}
 }
 
 @keyframes float5 {
-	0% {left:30px; right: 0px;}
-	50% {left:0px; right: 50px;}
-	100% {left: 80px; right:0px;}
+	0% {left:30px; right: 0px; top:50px;}
+	50% {left:0px; right: 50px; top:50px;}
+	100% {left: 80px; right:0px; top:50px;}
 }
 
 img {
@@ -138,7 +138,7 @@ img {
 .textegypte {
 	display: inline-block;
     width: 500px;
-    margin-left: 300px;
+    margin-right: 200px;
 }
 
 .pageamerindiens {
@@ -148,8 +148,8 @@ img {
 
 .textamerindiens {
 	display: inline-block;
-    width: 500px;
-    margin-left: 300px;
+    width: 600px;
+    margin-left: 330px;
 }
 
 .pageinca {
@@ -159,13 +159,13 @@ img {
 
 .textinca {
 	display: inline-block;
-    width: 500px;
-    margin-left: 300px;
+    width: 600px;
+    margin-left: 400px;
 }
 
 .perse {
 	width: 1920px;
-	margin-top: 120px;
+	margin-top: 160px;
 	height: 720px;
 	background-image: url("./1IRAN/fond2.png");
 	background-attachment: scroll;
@@ -174,7 +174,7 @@ img {
 
 .turquie {
 	width: 1920px;
-	margin-top: 120px;
+	margin-top: 160px;
 	height: 720px;
 	background-image: url("./2TURQUIE/fond.png");
 	background-attachment: scroll;
@@ -183,7 +183,7 @@ img {
 
 .egypte {
 	width: 1920px;
-	margin-top: 120px;
+	margin-top: 160px;
 	height: 720px;
 	background-image: url("./3EGYPTE/fond.png");
 	background-attachment: scroll;
@@ -193,7 +193,7 @@ img {
 
 .amerindiens {
 	width: 1920px;
-	margin-top: 120px;
+	margin-top: 160px;
 	height: 720px;
 	background-image: url("./4AMERIQUE/fond.png");
 	background-attachment: scroll;
@@ -204,7 +204,7 @@ img {
 
 .inca {
 	width: 1920px;
-	margin-top: 120px;
+	margin-top: 160px;
 	height: 720px;
 	background-image: url("./5AMERIQUE S/fond.png");
 	background-attachment: scroll;
