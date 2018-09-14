@@ -18,7 +18,7 @@ body {
 	background-position: center;
 	background-attachment: fixed;
     animation-name: colorfade;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
@@ -87,6 +87,14 @@ body {
     animation-direction: alternate;
 }
 
+#page6 {
+	animation-name: float6;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 @keyframes float1 {
 	0% {left:400px; right: 0px; bottom: 300px;}
 	50% {left:380px; right: 0px;bottom: 320px; transform: rotate(10deg);}
@@ -115,6 +123,12 @@ body {
 	0% {left:30px; right: 0px; bottom:50px;}
 	50% {left:0px; right: 10px; bottom:50px; transform: rotate(10deg)}
 	100% {left: 80px; right:0px; bottom:50px;}
+}
+
+@keyframes float6 {
+	0% {left:100px; right: 0px; top:50px;}
+	50% {left:100px; right: 0px; top:100px; }
+	100% {left:110px; right:0px; top:60px;transform: rotate(5deg)}
 }
 
 img {
