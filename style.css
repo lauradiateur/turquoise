@@ -1,3 +1,7 @@
+h1, h2, p {
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
 body {
 	background-image: url("cadre.png");
 	background-position: center;
@@ -58,19 +62,18 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
 
 @keyframes float1 {
-	0% {left:400px; right: 0px;}
-	50% {left:50px; right: 0px;}
-	100% {left: 200px; right:0px;}
+	0% {left:400px; right: 0px; bottom: 200px;}
+	50% {left:50px; right: 0px;bottom: 200px;}
+	100% {left: 200px; right:0px;bottom: 200px;}
 }
 
 @keyframes float2 {
-	0% {left:0px; right: 200px;}
-	50% {left:50px; right: 0px;}
-	100% {left: 0px; right:50px;}
+	0% {left:400px; right: 200px; top: 300px;}
+	50% {left:360px; right: 0px; top: 300px;}
+	100% {left: 460px; right:0px; top: 300px;}
 }
 
 @keyframes float3 {
@@ -98,21 +101,71 @@ img {
 	margin-right: auto;
 }
 
-h1, h2, p {
-	font-family: 'Love Ya Like A Sister', cursive;
-
-}
-
-.perse img, .turquie img, .egypte img, .amerindiens img, .inca img {
-	margin-top: 120px;
+.cadre {
 	display: inline-block;
 }
 
-.perse h1 h2 p {
+.perse img, .turquie img, .egypte img, .amerindiens img, .inca img {
+}
 
+.pageperse {
+	display: inline-block;
+	width: 500px;
+}
+
+.textperse {
+	display: inline-block;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.pageturquie {
+	display: inline-block;
+	width: 500px;
+}
+
+.textturquie {
+	display: inline-block;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.pageegypte {
+	display: inline-block;
+	width: 500px;
+}
+
+.textegypte {
+	display: inline-block;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.pageamerindiens {
+	display: inline-block;
+	width: 500px;
+}
+
+.textamerindiens {
+	display: inline-block;
+    width: 500px;
+    margin-left: 300px;
+}
+
+.pageinca {
+	display: inline-block;
+	width: 500px;
+}
+
+.textinca {
+	display: inline-block;
+    width: 500px;
+    margin-left: 300px;
 }
 
 .perse {
+	width: 1920px;
+	margin-top: 120px;
 	height: 720px;
 	background-image: url("./1IRAN/fond2.png");
 	background-attachment: scroll;
@@ -120,6 +173,8 @@ h1, h2, p {
 }
 
 .turquie {
+	width: 1920px;
+	margin-top: 120px;
 	height: 720px;
 	background-image: url("./2TURQUIE/fond.png");
 	background-attachment: scroll;
@@ -127,19 +182,29 @@ h1, h2, p {
 }
 
 .egypte {
+	width: 1920px;
+	margin-top: 120px;
 	height: 720px;
 	background-image: url("./3EGYPTE/fond.png");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 
-}.amerindiens {
+}
+
+.amerindiens {
+	width: 1920px;
+	margin-top: 120px;
 	height: 720px;
 	background-image: url("./4AMERIQUE/fond.png");
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 
 
-}.inca {
+}
+
+.inca {
+	width: 1920px;
+	margin-top: 120px;
 	height: 720px;
 	background-image: url("./5AMERIQUE S/fond.png");
 	background-attachment: scroll;
